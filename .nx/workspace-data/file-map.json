@@ -95,79 +95,165 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
         "file": "package.json",
         "hash": "3455504736108902404"
-      },
-      {
-        "file": "README.md",
-        "hash": "2313740832985090877"
-      },
-      {
-        "file": ".DS_Store",
-        "hash": "6381180709764856123"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "2595156467675501491"
-      },
-      {
-        "file": "dist/api/main.js",
-        "hash": "4747698548712454931"
-      },
-      {
-        "file": "dist/api/assets/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "dist/api/package.json",
-        "hash": "7782682546233658647"
-      },
-      {
-        "file": "dist/api/yarn.lock",
-        "hash": "6403994625853450743"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "16670410132402303125"
       },
       {
         "file": ".gitignore",
         "hash": "7450782424687248167"
       },
       {
-        "file": "nx.json",
-        "hash": "15872230333792669707"
+        "file": "package-lock.json",
+        "hash": "16670410132402303125"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": "dist/api/package.json",
+        "hash": "9183224044305267288"
+      },
+      {
+        "file": "README.md",
+        "hash": "2313740832985090877"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
+        "file": "nx.json",
+        "hash": "15872230333792669707"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "2595156467675501491"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": "dist/api/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "dist/api/yarn.lock",
+        "hash": "8720587979375231188"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "dist/api/main.js",
+        "hash": "4747698548712454931"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".DS_Store",
+        "hash": "6381180709764856123"
       }
     ],
     "projectFileMap": {
+      "app-e2e": [
+        {
+          "file": "app-e2e/.eslintrc.json",
+          "hash": "12199001048877152138"
+        },
+        {
+          "file": "app-e2e/cypress.config.ts",
+          "hash": "4519820425034307658",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "app-e2e/project.json",
+          "hash": "215326276673057274"
+        },
+        {
+          "file": "app-e2e/src/e2e/app.cy.ts",
+          "hash": "10381000721242105215"
+        },
+        {
+          "file": "app-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "app-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "app-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "app-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "app-e2e/tsconfig.json",
+          "hash": "4966899981699294432"
+        }
+      ],
+      "api-e2e": [
+        {
+          "file": "api-e2e/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "api-e2e/jest.config.ts",
+          "hash": "2076893759250098545"
+        },
+        {
+          "file": "api-e2e/project.json",
+          "hash": "13138002956406772432"
+        },
+        {
+          "file": "api-e2e/src/api/api.spec.ts",
+          "hash": "110394728024017389",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "api-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "api-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "api-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "api-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
+        },
+        {
+          "file": "api-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
+        }
+      ],
       "app": [
         {
           "file": "app/.babelrc",
@@ -199,14 +285,14 @@
         },
         {
           "file": "app/src/app/app.tsx",
-          "hash": "7741902372754046117",
+          "hash": "15841036509715243105",
           "deps": [
             "npm:react-router-dom"
           ]
         },
         {
-          "file": "app/src/app/nx-welcome.tsx",
-          "hash": "14708174282304233720"
+          "file": "app/src/app/component/home/home.component.tsx",
+          "hash": "11601297906534639606"
         },
         {
           "file": "app/src/assets/.gitkeep",
@@ -252,48 +338,34 @@
             "npm:@nx/webpack",
             "npm:@nx/react"
           ]
-        }
-      ],
-      "app-e2e": [
-        {
-          "file": "app-e2e/.eslintrc.json",
-          "hash": "12199001048877152138"
         },
         {
-          "file": "app-e2e/cypress.config.ts",
-          "hash": "4519820425034307658",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
+          "file": "app/src/app/component/home/home.scss",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "app-e2e/project.json",
-          "hash": "215326276673057274"
+          "file": "app/src/app/component/favorites/favorites.component.tsx",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "app-e2e/src/e2e/app.cy.ts",
-          "hash": "10381000721242105215"
+          "file": "app/src/app/component/favorites/favorites.scss",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "app-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
+          "file": "app/src/app/component/shared/shared.tsx",
+          "hash": "7495217174135851120"
         },
         {
-          "file": "app-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
+          "file": "app/src/app/component/dinosaur-info/dinosaurInfo.component.tsx",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "app-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
+          "file": "app/src/app/component/dinosaur-info/dinosaurInfo.scss",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "app-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "app-e2e/tsconfig.json",
-          "hash": "4966899981699294432"
+          "file": "app/src/app/api-calls/apiCalls.tsx",
+          "hash": "16691995665891952525"
         }
       ],
       "api": [
@@ -311,23 +383,38 @@
         },
         {
           "file": "api/src/app/app.controller.spec.ts",
-          "hash": "9499997688052526633"
+          "hash": "9499997688052526633",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
         },
         {
           "file": "api/src/app/app.controller.ts",
-          "hash": "9005150069945785676"
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
           "file": "api/src/app/app.module.ts",
-          "hash": "3163250445227373966"
+          "hash": "3163250445227373966",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
           "file": "api/src/app/app.service.spec.ts",
-          "hash": "8587461140686713758"
+          "hash": "8587461140686713758",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
         },
         {
           "file": "api/src/app/app.service.ts",
-          "hash": "9967902337593410053"
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
         },
         {
           "file": "api/src/assets/.gitkeep",
@@ -335,7 +422,11 @@
         },
         {
           "file": "api/src/main.ts",
-          "hash": "11205222914964382693"
+          "hash": "11205222914964382693",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
         },
         {
           "file": "api/tsconfig.app.json",
@@ -355,50 +446,6 @@
           "deps": [
             "npm:@nx/webpack"
           ]
-        }
-      ],
-      "api-e2e": [
-        {
-          "file": "api-e2e/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "api-e2e/jest.config.ts",
-          "hash": "2076893759250098545"
-        },
-        {
-          "file": "api-e2e/project.json",
-          "hash": "13138002956406772432"
-        },
-        {
-          "file": "api-e2e/src/api/api.spec.ts",
-          "hash": "110394728024017389",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "api-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "api-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "api-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "api-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
-        },
-        {
-          "file": "api-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
         }
       ]
     }
